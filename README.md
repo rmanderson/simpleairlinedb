@@ -67,16 +67,19 @@ I plan to update the data around once a month. Because of the changing nature of
 
 ## Data Sources
 
-Airport data
-  https://ourairports.com/data/
-  https://github.com/davidmegginson/ourairports-data
+Airport data  
 
-Airline data
-  https://www.bts.gov/topics/airlines-and-airports/airline-codes
+https://ourairports.com/data/  
+https://github.com/davidmegginson/ourairports-data  
 
-Airline Route Data
-  https://www.alaskaair.com/en/sitemap/flights-from-city-to-city/page-1
-  Various press releases and news articles
+Airline data  
+
+https://www.bts.gov/topics/airlines-and-airports/airline-codes  
+
+Airline Route Data  
+
+https://www.alaskaair.com/en/sitemap/flights-from-city-to-city/page-1  
+Various press releases and news articles  
 
 ### If you find this project useful feel free to buy me a coffee
 
