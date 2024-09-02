@@ -2,18 +2,18 @@
 Just a simple SQLite Database with airline informaion. This information was aggregated from several public sources. Sources for all data has been listed and credited.
 
 ## Current Data
-General Airport information
-Airline names and BTS codes
-Alaska Airlines routes (2024-09-02)
+General Airport information  
+Airline names and BTS codes  
+Alaska Airlines routes (2024-09-02)  
 
 ## Future Updates
-Delta Airlines routes
-American Airlines routes
-United Airlines routes
-Southwest Airlines routes
-Jetblue Airlines routes
-Hawaiian Airlines routes
-Breeze Airways routes
+Delta Airlines routes  
+American Airlines routes  
+United Airlines routes  
+Southwest Airlines routes  
+Jetblue Airlines routes  
+Hawaiian Airlines routes  
+Breeze Airways routes  
 Sun Country Airlines routes
 
 For additional airline route requests please create an issue
