@@ -2,9 +2,13 @@
 Just a simple SQLite Database with airline informaion. This information was aggregated from several public sources. Sources for all data has been listed and credited.
 
 ## Current Data
-General Airport information  
-Airline names and BTS codes  
-Alaska Airlines routes (2024-09-02)  
+General Airport information (2024-09-09)
+Airline names and BTS codes (2024-09-02) 
+Alaska Airlines routes (2024-09-02)
+Hawaiian Airlines routes (2024-09-09)
+Breeze Airways routes (2024-09-09)
+Sun Country Airlines routes (2024-09-09)
+Allegiant Air routes (2024-09-09)
 
 ## Future Updates
 Delta Airlines routes  
@@ -12,9 +16,6 @@ American Airlines routes
 United Airlines routes  
 Southwest Airlines routes  
 Jetblue Airlines routes  
-Hawaiian Airlines routes  
-Breeze Airways routes  
-Sun Country Airlines routes
 
 For additional airline route requests please create an issue
 
@@ -26,8 +27,8 @@ I plan to update the data around once a month. Because of the changing nature of
 ### airline_routes
 | Column | Definition |
 |---|---| 
-|id|Internal identifer. This identifer may change from version to version depending on the data import|
-| airline | Bureau of Transportation Statistics airline code | 
+| id | Internal identifer. This identifer may change from version to version depending on the data import |
+| airline | IATA airline code | 
 | origin_iata_code | The three-letter IATA code for the origin airport | 
 | destination_iata_code	| The three-letter IATA code for the destination airport | 
 | direct | Indicate whether the route is direct | 
@@ -38,16 +39,16 @@ I plan to update the data around once a month. Because of the changing nature of
 ### airlines
 | Column | Definition |
 |---|---| 
-| id| Internal identifer. This identifer may change from version to version depending on the data import| 
-| airline| Bureau of Transportation Statistics airline code| 
-| airline_name| Airline name via the Bureau of Transportation Statistics| 
+| id | Internal identifer. This identifer may change from version to version depending on the data import| 
+| airline | IATA airline code| 
+| airline_name | Airline name via the Bureau of Transportation Statistics| 
 
 ### airports 
 (Definitions taken from https://ourairports.com/help/data-dictionary.html)
 | Column | Definition |
 |---|---| 
-| id| Internal OurAirports integer identifier for the airport. This will stay persistent, even if the airport code changes.| 
-| ident| The text identifier used in the OurAirports URL. This will be the ICAO code if available. Otherwise, it will be a local airport code (if no conflict), or if nothing else is available, an internally-generated code starting with the ISO2 country code, followed by a dash and a four-digit number.| 
+| id | Internal OurAirports integer identifier for the airport. This will stay persistent, even if the airport code changes.| 
+| ident | The text identifier used in the OurAirports URL. This will be the ICAO code if available. Otherwise, it will be a local airport code (if no conflict), or if nothing else is available, an internally-generated code starting with the ISO2 country code, followed by a dash and a four-digit number.| 
 | type| The type of the airport. Allowed values are "closed_airport", "heliport", "large_airport", "medium_airport", "seaplane_base", and "small_airport". See the map legend for a definition of each type.| 
 | name| 	The official airport name, including "Airport", "Airstrip", etc.| 
 | latitude_deg	| 	The airport latitude in decimal degrees (positive for north).| 
@@ -78,7 +79,16 @@ https://www.bts.gov/topics/airlines-and-airports/airline-codes
 
 Airline Route Data  
 
-https://www.alaskaair.com/en/sitemap/flights-from-city-to-city/page-1  
+Alaska Airlines Routes - https://www.alaskaair.com/en/sitemap/flights-from-city-to-city/page-1
+
+Hawaiian Airlines Routes - https://www.hawaiianairlines.com/destinations
+
+Sun Country Routes - https://www.suncountry.com/route-map
+
+Allegiant routes - https://www.allegiantair.com/route-map
+
+Breeze routes - https://www.flybreeze.com/shopping/en-us/sitemap/city-to-city-flights/page-1
+
 Various press releases and news articles  
 
 ### If you find this project useful feel free to buy me a coffee
