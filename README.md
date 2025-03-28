@@ -2,7 +2,7 @@
 Just a simple SQLite Database with airline informaion. This information was aggregated from several public sources. Sources for all data has been listed and credited.
 
 ## Current Data
-General Airport information (2024-09-09)   
+General Airport information (2025-03-27)   
 Airline names and BTS codes (2024-09-02)   
 Alaska Airlines routes (2024-09-02)   
 Hawaiian Airlines routes (2024-09-09)   
@@ -10,12 +10,12 @@ Breeze Airways routes (2024-09-09)
 Sun Country Airlines routes (2024-09-09)  
 Allegiant Air routes (2024-09-09)   
 Jetblue Airlines routes (2024-11-18)     
+Southwest Airlines routes (2025-03-27)  
 
 ## Future Updates
 Delta Airlines routes  
 American Airlines routes  
 United Airlines routes  
-Southwest Airlines routes  
   
 
 For additional airline route requests please create an issue
@@ -91,6 +91,8 @@ Allegiant routes - https://www.allegiantair.com/route-map
 Breeze routes - https://www.flybreeze.com/shopping/en-us/sitemap/city-to-city-flights/page-1
 
 Jetblue routes - https://www.jetblue.com/destinations
+
+Southwest routes - https://www.southwest.com/route-map-list-view/
 
 Various press releases and news articles  
 

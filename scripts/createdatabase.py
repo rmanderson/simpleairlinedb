@@ -46,7 +46,8 @@ files_to_import = ["../raw_data/as_routes.csv",
                    "../raw_data/g4_routes.csv",
                    "../raw_data/mx_routes.csv",
                    "../raw_data/b6_routes.csv",
-                   "../raw_data/sy_routes.csv"]
+                   "../raw_data/sy_routes.csv",
+                   "../raw_data/wn_routes.csv"]
 
 airport_data_download_location = "https://davidmegginson.github.io/ourairports-data/airports.csv"
 
