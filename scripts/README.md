@@ -8,6 +8,10 @@ Create a virtual environment and run:
 
 ```sh
 
+python3 -m venv . 
+
+source /bin/activate
+
 pip install -r requirements.txt
 
 ```
